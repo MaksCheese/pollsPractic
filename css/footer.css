@@ -1,0 +1,23 @@
+.footer{
+    flex-shrink: 0;
+}
+.footer, .containerFooter{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.email{
+    font-size: 25px;
+}
+.phone{
+    font-size: 17px;
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+}

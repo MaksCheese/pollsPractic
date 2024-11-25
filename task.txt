@@ -1,0 +1,33 @@
+Вывод статистики в виде гистограммы на странице Результаты
+
+Для голосов лично пользователей:
+
+id userName nameQuest   answers1   answers2   answers3   answers4   answers5   answer6   answers7   answers8
+
+
+
+
+Запрос на создание таблицы pools: (Хуйня какая-то)
+
+
+CREATE TABLE `queezy`.`polls` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT , 
+                                `title` VARCHAR(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL , 
+                                PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+Запрос на создание таблицы pool_ip:
+
+
+CREATE TABLE `queezy`.`poll_ip` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT , 
+                                    `pool_id` INT UNSIGNED NOT NULL , 
+                                    `ip` INT UNSIGNED NOT NULL , 
+                                    `date` INT UNSIGNED NOT NULL , 
+                                    PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+Запрос на создание таблицы pool_answer:
+
+CREATE TABLE `queezy`.`poll_answer` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT , 
+                                        `pool_id` INT UNSIGNED NOT NULL , 
+                                        `title` VARCHAR(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL , 
+                                        `votes` INT UNSIGNED NOT NULL , 
+                                        PRIMARY KEY (`id`)) ENGINE = InnoDB;

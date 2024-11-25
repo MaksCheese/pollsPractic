@@ -1,0 +1,30 @@
+.isAutho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.impo{
+    margin-top: 30px;
+}
+
+.form{
+    width: 450px;
+}
+
+.reg{
+    margin-top: 60px;
+}
+
+.msg {
+    border: 2px solid #a77b1c;
+    box-shadow: 2px 2px salmon;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}

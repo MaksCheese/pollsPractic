@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: -webkit-linear-gradient(90deg, #f5edf0,#dcbddf,#9a99e1,#008bd0);
+    background: linear-gradient(90deg, #f5edf0,#dcbddf,#9a99e1,#008bd0);
+    font-weight: 600;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+.addPoll{
+    width: 700px;
+}
+
+.redPolls{
+    width: 200px;
+}
+
+.redPoll{
+    width: 500px;
+}
+
+b{
+    padding-bottom: 10px;
+}
+
+table{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.fieldQuest{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 350px;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 50px;
+}
+
+.option{
+    margin-top: 50px;
+}
+
+select{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.many, .radio{
+    display: flex;
+    flex-direction: column;
+}
+
+.inpVarAnswer{
+    display: flex;
+    margin-top: 15px;
+    height: 35px;
+    width: 350px;
+}
+
+.count{
+    height: 30px;
+    width: 30px;
+    margin-top: 25px;
+}
+
+.button{
+    width: 150px;
+}

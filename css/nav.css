@@ -1,0 +1,11 @@
+.navStyle{
+    background: -webkit-linear-gradient(90deg, #f5edf0,#dfcee0,#afaee2,#289dd8);
+    background: linear-gradient(90deg, #f5edf0,#dfcee0,#afaee2,#289dd8);
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+}
